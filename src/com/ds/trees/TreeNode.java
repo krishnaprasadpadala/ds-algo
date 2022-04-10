@@ -13,4 +13,7 @@ public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
+
+    // Initializing depth of each node to -1
+    public int depth = -1;
 }
