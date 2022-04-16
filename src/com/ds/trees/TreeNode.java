@@ -16,4 +16,11 @@ public class TreeNode {
 
     // Initializing depth of each node to -1
     public int depth = -1;
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                '}';
+    }
 }
